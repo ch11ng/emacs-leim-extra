@@ -1,0 +1,11 @@
+Extra input mehtods for Emacs LEIM
+==================================
+
+This project is intended to provide extra input methods for Emacs LEIM
+(Libraries of Emacs Input Methods). Input methods can be registered in your
+Emacs init file like this:
+
+(register-input-method
+ "chinese-wubi86" "Chinese-GB" 'quail-use-package
+ "五" "汉字输入∷五笔∷"
+ "quail/wubi86")
